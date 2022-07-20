@@ -9,14 +9,14 @@
 <form asp-action="Report" method="get">
     <div class="form-actions no-color">
         <p>
-            Find by name or id: <input type="text" name="SearchString" value="@ViewData["CurrentFilter"]" />
+            Find by Name or Employee ID: <input type="text" name="SearchString" value="@ViewData["CurrentFilter"]" />
             <input type="submit" value="Search" class="btn btn-default" /> |
             <a asp-action="Report">Back to Full List</a>
         </p>
     </div>
 </form>
 <form method="post" asp-controller="Attendance" asp-action="ExportToExcel">
-    <input type="submit" value="Export" class="btn btn-primary"/>
+    <input type="submit" value="Export To Excel" class="btn btn-primary"/>
 </form>
 <table class="table">
     <thead>
