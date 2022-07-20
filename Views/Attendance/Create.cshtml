@@ -1,0 +1,43 @@
+﻿@model EmployeeAttendanceSystem.Models.Attendance
+
+@{
+    ViewData["Title"] = "Check In";
+}
+
+<h1>Attendance for @DateTime.Now.ToString("ddd, dd MMM yyy")</h1>
+
+<h4>Enter Employee ID and check in to get attendance</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="EmployeeID" class="control-label">Employee ID</label>
+                <input asp-for="EmployeeID" class="form-control" />
+                <span asp-validation-for="EmployeeID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                @*<label asp-for="Date" class="control-label"></label>*@
+                <input asp-for="Date" type="hidden" class="form-control" value=@DateTime.Now />
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                @*<label asp-for="Status" class="control-label"></label>*@
+                <input asp-for="Status" type="hidden" class="form-control" value=@Status.P>
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@*<div>
+    <a asp-action="Index">Back to List</a>
+</div>*@
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
