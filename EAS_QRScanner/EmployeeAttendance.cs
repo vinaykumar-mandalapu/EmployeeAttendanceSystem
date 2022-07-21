@@ -247,33 +247,52 @@ namespace EAS_QRScanner
             };
 			Employee employee = new();
 			int RowsAffected = 0;
-
-			string sql = "INSERT INTO dbo.Attendance VALUES(@EmployeeID, @Date, @Status)";
+			bool attendanceExists = false;
+			string addAttendanceSQL = "INSERT INTO dbo.Attendance VALUES(@EmployeeID, @Date, @Status)";
 			using (SqlConnection cnn = new SqlConnection("Server=localhost\\SQLEXPRESS;Database=termproject1group1;Trusted_Connection=True;MultipleActiveResultSets=true"))
 			{
-				using (SqlCommand cmd = new SqlCommand(sql, cnn))
+				cnn.Open();
+				using (SqlCommand CommandObject = new SqlCommand("SELECT LastName, FirstName FROM dbo.Employee WHERE EmployeeID = " + employeeID, cnn))
 				{
-					cmd.Parameters.Add(new SqlParameter("@EmployeeID", Convert.ToInt32(employeeID)));
-					cmd.Parameters.Add(new SqlParameter("@Date", DateTime.Now));
-					cmd.Parameters.Add(new SqlParameter("@Status", Status.P));
-					cmd.CommandType = CommandType.Text;
-					cnn.Open();
-					RowsAffected = cmd.ExecuteNonQuery();
-					if (RowsAffected == 1)
-                    {
-						using (SqlCommand CommandObject = new SqlCommand("SELECT LastName, FirstName FROM dbo.Employee WHERE EmployeeID = " + employeeID, cnn))
+					using (SqlDataReader dr = CommandObject.ExecuteReader(CommandBehavior.CloseConnection))
+					{
+						while (dr.Read())
 						{
-							using (SqlDataReader dr = CommandObject.ExecuteReader(CommandBehavior.CloseConnection))
-							{
-								while (dr.Read())
-								{
-									employee.FirstName = dr.GetString(dr.GetOrdinal("FirstName"));
-									employee.LastName = dr.GetString(dr.GetOrdinal("LastName"));
-								}
-							}
+							employee.FirstName = dr.GetString(dr.GetOrdinal("FirstName"));
+							employee.LastName = dr.GetString(dr.GetOrdinal("LastName"));
 						}
-						MessageBox.Show("Attendance added for " + employee.FullName);
 					}
+				}
+				cnn.Open();
+				using (SqlCommand cmdObj = new SqlCommand("SELECT COUNT(*) AS CheckAttendance FROM Attendance WHERE EmployeeID = " + employeeID + " AND CAST(Date AS DATE) = CAST(GETDATE() AS DATE)", cnn))
+				{
+					using (SqlDataReader dr = cmdObj.ExecuteReader(CommandBehavior.CloseConnection))
+					{
+						while (dr.Read())
+						{
+							attendanceExists = dr.GetInt32(dr.GetOrdinal("CheckAttendance")) > 0 ? true : false;
+						}
+					}
+				}
+                if (!attendanceExists)
+                {
+					using (SqlCommand cmd = new SqlCommand(addAttendanceSQL, cnn))
+					{
+						cmd.Parameters.Add(new SqlParameter("@EmployeeID", Convert.ToInt32(employeeID)));
+						cmd.Parameters.Add(new SqlParameter("@Date", DateTime.Now));
+						cmd.Parameters.Add(new SqlParameter("@Status", Status.P));
+						cmd.CommandType = CommandType.Text;
+						cnn.Open();
+						RowsAffected = cmd.ExecuteNonQuery();
+						if (RowsAffected == 1)
+						{
+							MessageBox.Show("Attendance added for " + employee.FullName);
+						}
+					}
+				}
+                else
+                {
+					MessageBox.Show("Attendance already added for " + employee.FullName);
 				}
 			}
 			DisableCameraMode();

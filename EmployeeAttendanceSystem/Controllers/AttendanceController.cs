@@ -200,7 +200,7 @@ namespace EmployeeAttendanceSystem.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(Report));
             }
             return View(attendance);
         }
@@ -239,7 +239,7 @@ namespace EmployeeAttendanceSystem.Controllers
             }
             
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(nameof(Report));
         }
 
         private bool AttendanceExists(int id)
