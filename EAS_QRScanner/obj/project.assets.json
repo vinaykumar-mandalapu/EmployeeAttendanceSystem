@@ -9544,11 +9544,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\manda\\OneDrive - Wichita State University\\WSU\\CS 780\\Term Project 1 Group 1\\EAS_QRScanner\\EAS_QRScanner.csproj",
+      "projectUniqueName": "C:\\Users\\manda\\OneDrive - Wichita State University\\WSU\\CS 780\\Term Project 1 Group 1\\EmployeeAttendanceSystem\\EAS_QRScanner\\EAS_QRScanner.csproj",
       "projectName": "EAS_QRScanner",
-      "projectPath": "C:\\Users\\manda\\OneDrive - Wichita State University\\WSU\\CS 780\\Term Project 1 Group 1\\EAS_QRScanner\\EAS_QRScanner.csproj",
+      "projectPath": "C:\\Users\\manda\\OneDrive - Wichita State University\\WSU\\CS 780\\Term Project 1 Group 1\\EmployeeAttendanceSystem\\EAS_QRScanner\\EAS_QRScanner.csproj",
       "packagesPath": "C:\\Users\\manda\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\manda\\OneDrive - Wichita State University\\WSU\\CS 780\\Term Project 1 Group 1\\EAS_QRScanner\\obj\\",
+      "outputPath": "C:\\Users\\manda\\OneDrive - Wichita State University\\WSU\\CS 780\\Term Project 1 Group 1\\EmployeeAttendanceSystem\\EAS_QRScanner\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -9568,8 +9568,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\manda\\OneDrive - Wichita State University\\WSU\\CS 780\\Term Project 1 Group 1\\EmployeeAttendanceSystem\\EmployeeAttendanceSystem.csproj": {
-              "projectPath": "C:\\Users\\manda\\OneDrive - Wichita State University\\WSU\\CS 780\\Term Project 1 Group 1\\EmployeeAttendanceSystem\\EmployeeAttendanceSystem.csproj"
+            "C:\\Users\\manda\\OneDrive - Wichita State University\\WSU\\CS 780\\Term Project 1 Group 1\\EmployeeAttendanceSystem\\EmployeeAttendanceSystem\\EmployeeAttendanceSystem.csproj": {
+              "projectPath": "C:\\Users\\manda\\OneDrive - Wichita State University\\WSU\\CS 780\\Term Project 1 Group 1\\EmployeeAttendanceSystem\\EmployeeAttendanceSystem\\EmployeeAttendanceSystem.csproj"
             }
           }
         }

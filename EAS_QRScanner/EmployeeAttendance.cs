@@ -36,15 +36,14 @@ namespace EAS_QRScanner
 			}
 			QRCodeTrace.Open("QRCodeDecoderTrace.txt");
 			QRCodeTrace.Write("QRCodeDecoder");
-			checkInButton.Enabled = false;
 			QRCodeDecoder = new QRDecoder();
 			VideoCameraExists = TestForVideoCamera();
-			scanCardButton.Enabled = VideoCameraExists;
 			QRCodeTimer = new Timer
 			{
 				Interval = 200
 			};
 			QRCodeTimer.Tick += QRCodeTimer_Tick;
+			scanCard();
 			OnResize(sender, e);
 			return;
 		}
@@ -65,9 +64,6 @@ namespace EAS_QRScanner
 			};
 
 			if (Dialog.ShowDialog() != DialogResult.OK) return;
-			ClearTextBoxes();
-			scanCardButton.Enabled = false;
-			checkInButton.Enabled = false;
 			if (QRCodeInputImage != null) QRCodeInputImage.Dispose();
 			QRCodeInputImage = new(Dialog.FileName);
 			QRCodeResult[] QRCodeResultArray = QRCodeDecoder.ImageDecoder(QRCodeInputImage);
@@ -78,20 +74,16 @@ namespace EAS_QRScanner
 			{
 				DisplayResult(QRCodeResultArray);
 			}
-			scanCardButton.Enabled = VideoCameraExists;
 			videoPanel.Invalidate();
 			return;
 		}
 		private void DisplayResult(QRCodeResult[] ResultArray)
 		{
-			checkInButton.Enabled = true;
 			employeeID = ConvertResultToDisplayString(ResultArray);
 			return;
 		}
-		private void scanCardButton_Click(object sender, EventArgs e)
+		private void scanCard()
 		{
-			ClearTextBoxes();
-
 			try
 			{
 				if (videoPanel.Visible)
@@ -109,7 +101,6 @@ namespace EAS_QRScanner
 						CameraPanel.Name = "CameraPanel";
 						CameraPanel.TabIndex = 20;
 						VideoCamera = new Camera(CameraPanel, CameraMoniker, FrameSize);
-						OnResize(sender, e);
 					}
 					else
 					{
@@ -123,14 +114,11 @@ namespace EAS_QRScanner
 				}
 				QRCodeTimer.Enabled = true;
 			}
-
 			catch (Exception Ex)
 			{
 				MessageBox.Show("Video camera problem\r\n" + Ex.Message);
 				DisableCameraMode();
 			}
-			scanCardButton.Enabled = false;
-			checkInButton.Enabled = false;
 			return;
 		}
 		private void QRCodeTimer_Tick(object sender, EventArgs e)
@@ -156,7 +144,7 @@ namespace EAS_QRScanner
 			}
 			DisplayResult(DataByteArray);
 			VideoCamera.PauseGraph();
-			scanCardButton.Enabled = true;
+			AddAttendance();
 			return;
 		}
 
@@ -172,14 +160,12 @@ namespace EAS_QRScanner
 			{
 				VideoCamera.PauseGraph();
 			}
-
 			catch
 			{
 				VideoCameraExists = false;
 			}
 			CameraPanel.Visible = false;
 			videoPanel.Visible = true;
-			scanCardButton.Enabled = VideoCameraExists;
 			return;
 		}
 
@@ -251,7 +237,7 @@ namespace EAS_QRScanner
 			}
 			return Display.ToString();
 		}
-		private void checkInButton_Click(object sender, EventArgs e)
+		private void AddAttendance()
 		{
             Attendance attendance = new()
             {
@@ -259,7 +245,7 @@ namespace EAS_QRScanner
                 Status = Status.P,
                 Date = DateTime.Now
             };
-
+			Employee employee = new();
 			int RowsAffected = 0;
 
 			string sql = "INSERT INTO dbo.Attendance VALUES(@EmployeeID, @Date, @Status)";
@@ -273,75 +259,54 @@ namespace EAS_QRScanner
 					cmd.CommandType = CommandType.Text;
 					cnn.Open();
 					RowsAffected = cmd.ExecuteNonQuery();
+					if (RowsAffected == 1)
+                    {
+						using (SqlCommand CommandObject = new SqlCommand("SELECT LastName, FirstName FROM dbo.Employee WHERE EmployeeID = " + employeeID, cnn))
+						{
+							using (SqlDataReader dr = CommandObject.ExecuteReader(CommandBehavior.CloseConnection))
+							{
+								while (dr.Read())
+								{
+									employee.FirstName = dr.GetString(dr.GetOrdinal("FirstName"));
+									employee.LastName = dr.GetString(dr.GetOrdinal("LastName"));
+								}
+							}
+						}
+						MessageBox.Show("Attendance added for " + employee.FullName);
+					}
 				}
 			}
-			if (RowsAffected == 1)
-			{
-				MessageBox.Show("Attendance added succesfully");
-			}
 			DisableCameraMode();
-			checkInButton.Enabled = false;
-			scanCardButton.Enabled = true;
-			return;
-		}
-
-		private static bool IsValidUrl(string Url)
-		{
-			if (System.Uri.IsWellFormedUriString(Url, UriKind.Absolute) &&
-				System.Uri.TryCreate(Url, UriKind.Absolute, out Uri TempUrl))
-			{
-				return TempUrl.Scheme == System.Uri.UriSchemeHttp || TempUrl.Scheme == System.Uri.UriSchemeHttps;
-			}
-			return false;
-		}
-
-		private void ClearTextBoxes()
-		{
+			scanCard();
 			return;
 		}
 
 		private void OnvideoPanelPaint(object sender, PaintEventArgs e)
 		{
-			// no image
 			if (QRCodeInputImage == null) return;
 
-			// calculate image height to preserve aspect ratio
 			int ImageHeight = (videoPanel.Width * QRCodeInputImage.Height) / QRCodeInputImage.Width;
 			int ImageWidth;
-
 			if (ImageHeight <= videoPanel.Height)
-			{
 				ImageWidth = videoPanel.Width;
-			}
 			else
 			{
 				ImageWidth = (videoPanel.Height * QRCodeInputImage.Width) / QRCodeInputImage.Height;
 				ImageHeight = videoPanel.Height;
 			}
-
-			// calculate position
 			int ImageX = (videoPanel.Width - ImageWidth) / 2;
 			int ImageY = (videoPanel.Height - ImageHeight) / 2;
-
-			// draw image
 			e.Graphics.DrawImage(QRCodeInputImage, new Rectangle(ImageX, ImageY, ImageWidth, ImageHeight));
 			return;
 		}
 		private void OnResize(object sender, EventArgs e)
 		{
-			// minimize
 			if (ClientSize.Width == 0) return;
-
-			//videoPanel.Width = ClientSize.Width - videoPanel.Left - 4;
-			//videoPanel.Height = DecodedDataLabel.Top - videoPanel.Top - 4;
-
 			if (CameraPanel != null)
 			{
 				CameraPanel.Location = new Point(videoPanel.Left, videoPanel.Top);
 				CameraPanel.Size = new Size(videoPanel.Width, videoPanel.Height);
 			}
-
-			// if there is an image force repaint
 			if (QRCodeInputImage != null) videoPanel.Invalidate();
 			return;
 		}

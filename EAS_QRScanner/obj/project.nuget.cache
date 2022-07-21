@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "25d9l1sbEi+MGbgncpwSl7Oo7y+/YoSGo1b1hmYSKUTEgLJIlFqtm1y1RPZ0g+ai+pZsEbErxHo1Q4c0z93kTA==",
+  "dgSpecHash": "640vvF1YnfVzk8IN5zqVHuA1FSoyMA/q6EBepK4Eb9/IW178dACjQxZamZ+lZqOrLdAivtzooysGtdy6k28ADA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\manda\\OneDrive - Wichita State University\\WSU\\CS 780\\Term Project 1 Group 1\\EAS_QRScanner\\EAS_QRScanner.csproj",
+  "projectFilePath": "C:\\Users\\manda\\OneDrive - Wichita State University\\WSU\\CS 780\\Term Project 1 Group 1\\EmployeeAttendanceSystem\\EAS_QRScanner\\EAS_QRScanner.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\manda\\.nuget\\packages\\closedxml\\0.96.0\\closedxml.0.96.0.nupkg.sha512",
     "C:\\Users\\manda\\.nuget\\packages\\documentformat.openxml\\2.16.0\\documentformat.openxml.2.16.0.nupkg.sha512",

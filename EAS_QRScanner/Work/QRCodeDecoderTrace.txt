@@ -6368,3 +6368,154 @@ Data is damaged. Error correction failed
 2022/07/20 23:29:06 Version: 1, Dim: 21, ErrCorr: L, Generator: 7, Mask: 0, Group1: 1:19, Group2: 0:0
 2022/07/20 23:29:06 Data: 1
 2022/07/20 23:29:06 Time: 31
+2022/07/20 23:49:48 ----
+2022/07/20 23:49:48 QRCodeDecoder
+2022/07/20 23:51:05 Image width: 640, Height: 480
+2022/07/20 23:51:05 Convert image to black and white
+2022/07/20 23:51:05 Time: 15
+2022/07/20 23:51:05 Finders search
+2022/07/20 23:51:05 Horizontal Finders count: 36
+2022/07/20 23:51:05 Matched Finders count: 4
+2022/07/20 23:51:05 Remove all unused finders
+2022/07/20 23:51:05 Keep best matched finders. Less than 3 finders found
+2022/07/20 23:51:05 Image width: 640, Height: 480
+2022/07/20 23:51:05 Convert image to black and white
+2022/07/20 23:51:05 Time: 16
+2022/07/20 23:51:05 Finders search
+2022/07/20 23:51:05 Horizontal Finders count: 12
+2022/07/20 23:51:05 Matched Finders count: 0
+2022/07/20 23:51:05 Remove all unused finders
+2022/07/20 23:51:05 Remove unmatched finders. Less than 3 finders found
+2022/07/20 23:51:05 Image width: 640, Height: 480
+2022/07/20 23:51:05 Convert image to black and white
+2022/07/20 23:51:05 Time: 62
+2022/07/20 23:51:05 Finders search
+2022/07/20 23:51:05 Horizontal Finders count: 14
+2022/07/20 23:51:05 Matched Finders count: 5
+2022/07/20 23:51:05 Remove all unused finders
+2022/07/20 23:51:05 Keep best matched finders. Less than 3 finders found
+2022/07/20 23:51:06 Image width: 640, Height: 480
+2022/07/20 23:51:06 Convert image to black and white
+2022/07/20 23:51:06 Time: 15
+2022/07/20 23:51:06 Finders search
+2022/07/20 23:51:06 Horizontal finders search. Less than 3 finders found
+2022/07/20 23:51:06 Image width: 640, Height: 480
+2022/07/20 23:51:06 Convert image to black and white
+2022/07/20 23:51:06 Time: 16
+2022/07/20 23:51:06 Finders search
+2022/07/20 23:51:06 Horizontal Finders count: 42
+2022/07/20 23:51:06 Matched Finders count: 7
+2022/07/20 23:51:06 Remove all unused finders
+2022/07/20 23:51:06 Keep best matched finders. Less than 3 finders found
+2022/07/20 23:51:06 Image width: 640, Height: 480
+2022/07/20 23:51:06 Convert image to black and white
+2022/07/20 23:51:06 Time: 31
+2022/07/20 23:51:06 Finders search
+2022/07/20 23:51:06 Horizontal Finders count: 44
+2022/07/20 23:51:06 Matched Finders count: 3
+2022/07/20 23:51:06 Remove all unused finders
+2022/07/20 23:51:06 Keep best matched finders. Less than 3 finders found
+2022/07/20 23:51:06 Image width: 640, Height: 480
+2022/07/20 23:51:06 Convert image to black and white
+2022/07/20 23:51:07 Time: 94
+2022/07/20 23:51:07 Finders search
+2022/07/20 23:51:07 Horizontal Finders count: 66
+2022/07/20 23:51:07 Matched Finders count: 8
+2022/07/20 23:51:07 Remove all unused finders
+2022/07/20 23:51:07 Keep best matched finders. Less than 3 finders found
+2022/07/20 23:51:07 Image width: 640, Height: 480
+2022/07/20 23:51:07 Convert image to black and white
+2022/07/20 23:51:07 Time: 63
+2022/07/20 23:51:07 Finders search
+2022/07/20 23:51:07 Horizontal Finders count: 63
+2022/07/20 23:51:07 Matched Finders count: 9
+2022/07/20 23:51:07 Remove all unused finders
+2022/07/20 23:51:07 Keep best matched finders. Less than 3 finders found
+2022/07/20 23:51:07 Image width: 640, Height: 480
+2022/07/20 23:51:07 Convert image to black and white
+2022/07/20 23:51:07 Time: 16
+2022/07/20 23:51:07 Finders search
+2022/07/20 23:51:07 Horizontal Finders count: 130
+2022/07/20 23:51:07 Matched Finders count: 11
+2022/07/20 23:51:07 Remove all unused finders
+2022/07/20 23:51:07 Time: 31
+2022/07/20 23:51:07 Finder: Row: 150, Col: 87, Module: 15.29, Distance: 0.50
+2022/07/20 23:51:07 Finder: Row: 156, Col: 301, Module: 14.64, Distance: 0.71
+2022/07/20 23:51:07 Finder: Row: 359, Col: 90, Module: 14.64, Distance: 0.71
+2022/07/20 23:51:07 Search for QR corners
+2022/07/20 23:51:07 Decode Corner: Top Left:    Finder: Row: 150, Col: 87, Module: 15.29, Distance: 0.50
+2022/07/20 23:51:07 Decode Corner: Top Right:   Finder: Row: 156, Col: 301, Module: 14.64, Distance: 0.71
+2022/07/20 23:51:07 Decode Corner: Bottom Left: Finder: Row: 359, Col: 90, Module: 14.64, Distance: 0.71
+2022/07/20 23:51:07 Initial version number: 1, dimension: 21
+2022/07/20 23:51:07 Format info exact match: 77C4, EC: L, mask: 0
+2022/07/20 23:51:07 Decode QR code using three finders
+2022/07/20 23:51:07 Fixed modules no error
+2022/07/20 23:51:07 Decode QR code exception.
+Data is damaged. Error correction failed
+2022/07/20 23:51:07 Time: 141
+2022/07/20 23:51:07 No QR Code found
+2022/07/20 23:51:07 Image width: 640, Height: 480
+2022/07/20 23:51:07 Convert image to black and white
+2022/07/20 23:51:07 Time: 31
+2022/07/20 23:51:07 Finders search
+2022/07/20 23:51:07 Horizontal Finders count: 126
+2022/07/20 23:51:07 Matched Finders count: 12
+2022/07/20 23:51:07 Remove all unused finders
+2022/07/20 23:51:07 Time: 47
+2022/07/20 23:51:07 Finder: Row: 133, Col: 112, Module: 14.71, Distance: 0.50
+2022/07/20 23:51:07 Finder: Row: 143, Col: 317, Module: 14.14, Distance: 0.00
+2022/07/20 23:51:07 Finder: Row: 337, Col: 110, Module: 14.21, Distance: 0.71
+2022/07/20 23:51:07 Search for QR corners
+2022/07/20 23:51:07 Decode Corner: Top Left:    Finder: Row: 133, Col: 112, Module: 14.71, Distance: 0.50
+2022/07/20 23:51:07 Decode Corner: Top Right:   Finder: Row: 143, Col: 317, Module: 14.14, Distance: 0.00
+2022/07/20 23:51:07 Decode Corner: Bottom Left: Finder: Row: 337, Col: 110, Module: 14.21, Distance: 0.71
+2022/07/20 23:51:07 Initial version number: 1, dimension: 21
+2022/07/20 23:51:07 Format info exact match: 77C4, EC: L, mask: 0
+2022/07/20 23:51:08 Decode QR code using three finders
+2022/07/20 23:51:08 Fixed modules no error
+2022/07/20 23:51:08 Decode QR code exception.
+Data is damaged. Error correction failed
+2022/07/20 23:51:08 Time: 109
+2022/07/20 23:51:08 No QR Code found
+2022/07/20 23:51:08 Image width: 640, Height: 480
+2022/07/20 23:51:08 Convert image to black and white
+2022/07/20 23:51:08 Time: 63
+2022/07/20 23:51:08 Finders search
+2022/07/20 23:51:08 Horizontal Finders count: 131
+2022/07/20 23:51:08 Matched Finders count: 14
+2022/07/20 23:51:08 Remove all unused finders
+2022/07/20 23:51:08 Time: 94
+2022/07/20 23:51:08 Finder: Row: 127, Col: 112, Module: 15.07, Distance: 0.00
+2022/07/20 23:51:08 Finder: Row: 135, Col: 322, Module: 14.43, Distance: 0.50
+2022/07/20 23:51:08 Finder: Row: 334, Col: 111, Module: 14.57, Distance: 0.00
+2022/07/20 23:51:08 Search for QR corners
+2022/07/20 23:51:08 Decode Corner: Top Left:    Finder: Row: 127, Col: 112, Module: 15.07, Distance: 0.00
+2022/07/20 23:51:08 Decode Corner: Top Right:   Finder: Row: 135, Col: 322, Module: 14.43, Distance: 0.50
+2022/07/20 23:51:08 Decode Corner: Bottom Left: Finder: Row: 334, Col: 111, Module: 14.57, Distance: 0.00
+2022/07/20 23:51:08 Initial version number: 1, dimension: 21
+2022/07/20 23:51:08 Format info exact match: 77C4, EC: L, mask: 0
+2022/07/20 23:51:08 Decode QR code using three finders
+2022/07/20 23:51:08 Fixed modules no error
+2022/07/20 23:51:08 Decode QR code exception.
+Data is damaged. Error correction failed
+2022/07/20 23:51:08 Time: 141
+2022/07/20 23:51:08 No QR Code found
+2022/07/20 23:51:08 Image width: 640, Height: 480
+2022/07/20 23:51:08 Convert image to black and white
+2022/07/20 23:51:08 Time: 62
+2022/07/20 23:51:08 Finders search
+2022/07/20 23:51:08 Horizontal Finders count: 130
+2022/07/20 23:51:08 Matched Finders count: 14
+2022/07/20 23:51:08 Remove all unused finders
+2022/07/20 23:51:08 Time: 93
+2022/07/20 23:51:08 Finder: Row: 121, Col: 108, Module: 15.14, Distance: 0.00
+2022/07/20 23:51:08 Finder: Row: 128, Col: 320, Module: 14.64, Distance: 0.50
+2022/07/20 23:51:08 Finder: Row: 330, Col: 108, Module: 14.57, Distance: 0.00
+2022/07/20 23:51:08 Search for QR corners
+2022/07/20 23:51:08 Decode Corner: Top Left:    Finder: Row: 121, Col: 108, Module: 15.14, Distance: 0.00
+2022/07/20 23:51:08 Decode Corner: Top Right:   Finder: Row: 128, Col: 320, Module: 14.64, Distance: 0.50
+2022/07/20 23:51:08 Decode Corner: Bottom Left: Finder: Row: 330, Col: 108, Module: 14.57, Distance: 0.00
+2022/07/20 23:51:08 Initial version number: 1, dimension: 21
+2022/07/20 23:51:08 Format info exact match: 77C4, EC: L, mask: 0
+2022/07/20 23:51:08 Decode QR code using three finders
+2022/07/20 23:51:08 Fixed modules no error
