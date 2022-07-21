@@ -1,0 +1,452 @@
+2022/07/20 14:02:20 ----
+2022/07/20 14:02:20 QRCodeDecoder
+2022/07/20 14:02:25 Convert image to black and white
+2022/07/20 14:02:25 Time: 16
+2022/07/20 14:02:25 Finders search
+2022/07/20 14:02:25 Horizontal finders search. Less than 3 finders found
+2022/07/20 14:02:25 Convert image to black and white
+2022/07/20 14:02:25 Time: 0
+2022/07/20 14:02:25 Finders search
+2022/07/20 14:02:25 Horizontal finders search. Less than 3 finders found
+2022/07/20 14:02:26 Convert image to black and white
+2022/07/20 14:02:26 Time: 16
+2022/07/20 14:02:26 Finders search
+2022/07/20 14:02:26 Horizontal Finders count: 26
+2022/07/20 14:02:26 Matched Finders count: 0
+2022/07/20 14:02:26 Remove all unused finders
+2022/07/20 14:02:26 Remove unmatched finders. Less than 3 finders found
+2022/07/20 14:02:26 Convert image to black and white
+2022/07/20 14:02:26 Time: 0
+2022/07/20 14:02:26 Finders search
+2022/07/20 14:02:26 Horizontal Finders count: 20
+2022/07/20 14:02:26 Matched Finders count: 0
+2022/07/20 14:02:26 Remove all unused finders
+2022/07/20 14:02:26 Remove unmatched finders. Less than 3 finders found
+2022/07/20 14:02:26 Convert image to black and white
+2022/07/20 14:02:26 Time: 15
+2022/07/20 14:02:26 Finders search
+2022/07/20 14:02:26 Horizontal Finders count: 25
+2022/07/20 14:02:26 Matched Finders count: 1
+2022/07/20 14:02:26 Remove all unused finders
+2022/07/20 14:02:26 Remove unmatched finders. Less than 3 finders found
+2022/07/20 14:02:26 Convert image to black and white
+2022/07/20 14:02:26 Time: 16
+2022/07/20 14:02:26 Finders search
+2022/07/20 14:02:26 Horizontal finders search. Less than 3 finders found
+2022/07/20 14:02:27 Convert image to black and white
+2022/07/20 14:02:27 Time: 0
+2022/07/20 14:02:27 Finders search
+2022/07/20 14:02:27 Horizontal Finders count: 3
+2022/07/20 14:02:27 Matched Finders count: 0
+2022/07/20 14:02:27 Remove all unused finders
+2022/07/20 14:02:27 Remove unmatched finders. Less than 3 finders found
+2022/07/20 14:02:27 Convert image to black and white
+2022/07/20 14:02:27 Time: 15
+2022/07/20 14:02:27 Finders search
+2022/07/20 14:02:27 Horizontal Finders count: 5
+2022/07/20 14:02:27 Matched Finders count: 0
+2022/07/20 14:02:27 Remove all unused finders
+2022/07/20 14:02:27 Remove unmatched finders. Less than 3 finders found
+2022/07/20 14:02:27 Convert image to black and white
+2022/07/20 14:02:27 Time: 16
+2022/07/20 14:02:27 Finders search
+2022/07/20 14:02:27 Horizontal Finders count: 5
+2022/07/20 14:02:27 Matched Finders count: 0
+2022/07/20 14:02:27 Remove all unused finders
+2022/07/20 14:02:27 Remove unmatched finders. Less than 3 finders found
+2022/07/20 14:02:27 Convert image to black and white
+2022/07/20 14:02:27 Time: 0
+2022/07/20 14:02:27 Finders search
+2022/07/20 14:02:27 Horizontal Finders count: 4
+2022/07/20 14:02:27 Matched Finders count: 0
+2022/07/20 14:02:27 Remove all unused finders
+2022/07/20 14:02:27 Remove unmatched finders. Less than 3 finders found
+2022/07/20 14:02:28 Convert image to black and white
+2022/07/20 14:02:28 Time: 16
+2022/07/20 14:02:28 Finders search
+2022/07/20 14:02:28 Horizontal Finders count: 4
+2022/07/20 14:02:28 Matched Finders count: 0
+2022/07/20 14:02:28 Remove all unused finders
+2022/07/20 14:02:28 Remove unmatched finders. Less than 3 finders found
+2022/07/20 14:02:28 Convert image to black and white
+2022/07/20 14:02:28 Time: 0
+2022/07/20 14:02:28 Finders search
+2022/07/20 14:02:28 Horizontal finders search. Less than 3 finders found
+2022/07/20 14:02:28 Convert image to black and white
+2022/07/20 14:02:28 Time: 15
+2022/07/20 14:02:28 Finders search
+2022/07/20 14:02:28 Horizontal Finders count: 4
+2022/07/20 14:02:28 Matched Finders count: 0
+2022/07/20 14:02:28 Remove all unused finders
+2022/07/20 14:02:28 Remove unmatched finders. Less than 3 finders found
+2022/07/20 14:02:28 Convert image to black and white
+2022/07/20 14:02:28 Time: 16
+2022/07/20 14:02:28 Finders search
+2022/07/20 14:02:28 Horizontal Finders count: 4
+2022/07/20 14:02:28 Matched Finders count: 0
+2022/07/20 14:02:28 Remove all unused finders
+2022/07/20 14:02:28 Remove unmatched finders. Less than 3 finders found
+2022/07/20 14:02:29 Convert image to black and white
+2022/07/20 14:02:29 Time: 0
+2022/07/20 14:02:29 Finders search
+2022/07/20 14:02:29 Horizontal Finders count: 4
+2022/07/20 14:02:29 Matched Finders count: 0
+2022/07/20 14:02:29 Remove all unused finders
+2022/07/20 14:02:29 Remove unmatched finders. Less than 3 finders found
+2022/07/20 14:02:29 Convert image to black and white
+2022/07/20 14:02:29 Time: 16
+2022/07/20 14:02:29 Finders search
+2022/07/20 14:02:29 Horizontal finders search. Less than 3 finders found
+2022/07/20 14:02:29 Convert image to black and white
+2022/07/20 14:02:29 Time: 15
+2022/07/20 14:02:29 Finders search
+2022/07/20 14:02:29 Horizontal Finders count: 4
+2022/07/20 14:02:29 Matched Finders count: 0
+2022/07/20 14:02:29 Remove all unused finders
+2022/07/20 14:02:29 Remove unmatched finders. Less than 3 finders found
+2022/07/20 14:02:29 Convert image to black and white
+2022/07/20 14:02:29 Time: 0
+2022/07/20 14:02:29 Finders search
+2022/07/20 14:02:29 Horizontal Finders count: 3
+2022/07/20 14:02:29 Matched Finders count: 0
+2022/07/20 14:02:29 Remove all unused finders
+2022/07/20 14:02:29 Remove unmatched finders. Less than 3 finders found
+2022/07/20 14:02:30 Convert image to black and white
+2022/07/20 14:02:30 Time: 15
+2022/07/20 14:02:30 Finders search
+2022/07/20 14:02:30 Horizontal Finders count: 4
+2022/07/20 14:02:30 Matched Finders count: 0
+2022/07/20 14:02:30 Remove all unused finders
+2022/07/20 14:02:30 Remove unmatched finders. Less than 3 finders found
+2022/07/20 14:02:30 Convert image to black and white
+2022/07/20 14:02:30 Time: 0
+2022/07/20 14:02:30 Finders search
+2022/07/20 14:02:30 Horizontal finders search. Less than 3 finders found
+2022/07/20 14:02:30 Convert image to black and white
+2022/07/20 14:02:30 Time: 0
+2022/07/20 14:02:30 Finders search
+2022/07/20 14:02:30 Horizontal Finders count: 3
+2022/07/20 14:02:30 Matched Finders count: 0
+2022/07/20 14:02:30 Remove all unused finders
+2022/07/20 14:02:30 Remove unmatched finders. Less than 3 finders found
+2022/07/20 14:02:30 Convert image to black and white
+2022/07/20 14:02:30 Time: 15
+2022/07/20 14:02:30 Finders search
+2022/07/20 14:02:30 Horizontal Finders count: 4
+2022/07/20 14:02:30 Matched Finders count: 0
+2022/07/20 14:02:30 Remove all unused finders
+2022/07/20 14:02:30 Remove unmatched finders. Less than 3 finders found
+2022/07/20 14:02:31 Convert image to black and white
+2022/07/20 14:02:31 Time: 15
+2022/07/20 14:02:31 Finders search
+2022/07/20 14:02:31 Horizontal finders search. Less than 3 finders found
+2022/07/20 14:02:31 Convert image to black and white
+2022/07/20 14:02:31 Time: 15
+2022/07/20 14:02:31 Finders search
+2022/07/20 14:02:31 Horizontal finders search. Less than 3 finders found
+2022/07/20 14:02:31 Convert image to black and white
+2022/07/20 14:02:31 Time: 0
+2022/07/20 14:02:31 Finders search
+2022/07/20 14:02:31 Horizontal finders search. Less than 3 finders found
+2022/07/20 14:02:31 Convert image to black and white
+2022/07/20 14:02:31 Time: 15
+2022/07/20 14:02:31 Finders search
+2022/07/20 14:02:31 Horizontal finders search. Less than 3 finders found
+2022/07/20 14:02:32 Convert image to black and white
+2022/07/20 14:02:32 Time: 0
+2022/07/20 14:02:32 Finders search
+2022/07/20 14:02:32 Horizontal finders search. Less than 3 finders found
+2022/07/20 14:02:32 Convert image to black and white
+2022/07/20 14:02:32 Time: 0
+2022/07/20 14:02:32 Finders search
+2022/07/20 14:02:32 Horizontal finders search. Less than 3 finders found
+2022/07/20 14:02:32 Convert image to black and white
+2022/07/20 14:02:32 Time: 15
+2022/07/20 14:02:32 Finders search
+2022/07/20 14:02:32 Horizontal Finders count: 4
+2022/07/20 14:02:32 Matched Finders count: 0
+2022/07/20 14:02:32 Remove all unused finders
+2022/07/20 14:02:32 Remove unmatched finders. Less than 3 finders found
+2022/07/20 14:02:32 Convert image to black and white
+2022/07/20 14:02:32 Time: 0
+2022/07/20 14:02:32 Finders search
+2022/07/20 14:02:32 Horizontal Finders count: 3
+2022/07/20 14:02:32 Matched Finders count: 0
+2022/07/20 14:02:32 Remove all unused finders
+2022/07/20 14:02:32 Remove unmatched finders. Less than 3 finders found
+2022/07/20 14:02:32 Convert image to black and white
+2022/07/20 14:02:33 Time: 16
+2022/07/20 14:02:33 Finders search
+2022/07/20 14:02:33 Horizontal Finders count: 3
+2022/07/20 14:02:33 Matched Finders count: 0
+2022/07/20 14:02:33 Remove all unused finders
+2022/07/20 14:02:33 Remove unmatched finders. Less than 3 finders found
+2022/07/20 14:02:33 Convert image to black and white
+2022/07/20 14:02:33 Time: 16
+2022/07/20 14:02:33 Finders search
+2022/07/20 14:02:33 Horizontal Finders count: 3
+2022/07/20 14:02:33 Matched Finders count: 0
+2022/07/20 14:02:33 Remove all unused finders
+2022/07/20 14:02:33 Remove unmatched finders. Less than 3 finders found
+2022/07/20 14:02:33 Convert image to black and white
+2022/07/20 14:02:33 Time: 16
+2022/07/20 14:02:33 Finders search
+2022/07/20 14:02:33 Horizontal Finders count: 4
+2022/07/20 14:02:33 Matched Finders count: 0
+2022/07/20 14:02:33 Remove all unused finders
+2022/07/20 14:02:33 Remove unmatched finders. Less than 3 finders found
+2022/07/20 14:02:33 Convert image to black and white
+2022/07/20 14:02:33 Time: 15
+2022/07/20 14:02:33 Finders search
+2022/07/20 14:02:33 Horizontal finders search. Less than 3 finders found
+2022/07/20 14:02:34 Convert image to black and white
+2022/07/20 14:02:34 Time: 16
+2022/07/20 14:02:34 Finders search
+2022/07/20 14:02:34 Horizontal finders search. Less than 3 finders found
+2022/07/20 14:02:34 Convert image to black and white
+2022/07/20 14:02:34 Time: 16
+2022/07/20 14:02:34 Finders search
+2022/07/20 14:02:34 Horizontal finders search. Less than 3 finders found
+2022/07/20 14:02:34 Convert image to black and white
+2022/07/20 14:02:34 Time: 15
+2022/07/20 14:02:34 Finders search
+2022/07/20 14:02:34 Horizontal Finders count: 6
+2022/07/20 14:02:34 Matched Finders count: 0
+2022/07/20 14:02:34 Remove all unused finders
+2022/07/20 14:02:34 Remove unmatched finders. Less than 3 finders found
+2022/07/20 14:02:34 Convert image to black and white
+2022/07/20 14:02:34 Time: 15
+2022/07/20 14:02:34 Finders search
+2022/07/20 14:02:34 Horizontal Finders count: 3
+2022/07/20 14:02:34 Matched Finders count: 0
+2022/07/20 14:02:34 Remove all unused finders
+2022/07/20 14:02:34 Remove unmatched finders. Less than 3 finders found
+2022/07/20 14:02:35 Convert image to black and white
+2022/07/20 14:02:35 Time: 0
+2022/07/20 14:02:35 Finders search
+2022/07/20 14:02:35 Horizontal finders search. Less than 3 finders found
+2022/07/20 14:02:35 Convert image to black and white
+2022/07/20 14:02:35 Time: 15
+2022/07/20 14:02:35 Finders search
+2022/07/20 14:02:35 Horizontal Finders count: 6
+2022/07/20 14:02:35 Matched Finders count: 0
+2022/07/20 14:02:35 Remove all unused finders
+2022/07/20 14:02:35 Remove unmatched finders. Less than 3 finders found
+2022/07/20 14:02:35 Convert image to black and white
+2022/07/20 14:02:35 Time: 0
+2022/07/20 14:02:35 Finders search
+2022/07/20 14:02:35 Horizontal finders search. Less than 3 finders found
+2022/07/20 14:02:36 Convert image to black and white
+2022/07/20 14:02:36 Time: 16
+2022/07/20 14:02:36 Finders search
+2022/07/20 14:02:36 Horizontal finders search. Less than 3 finders found
+2022/07/20 14:02:36 Convert image to black and white
+2022/07/20 14:02:36 Time: 16
+2022/07/20 14:02:36 Finders search
+2022/07/20 14:02:36 Horizontal finders search. Less than 3 finders found
+2022/07/20 14:02:36 Convert image to black and white
+2022/07/20 14:02:36 Time: 0
+2022/07/20 14:02:36 Finders search
+2022/07/20 14:02:36 Horizontal finders search. Less than 3 finders found
+2022/07/20 14:02:36 Convert image to black and white
+2022/07/20 14:02:36 Time: 15
+2022/07/20 14:02:36 Finders search
+2022/07/20 14:02:36 Horizontal finders search. Less than 3 finders found
+2022/07/20 14:02:36 Convert image to black and white
+2022/07/20 14:02:36 Time: 0
+2022/07/20 14:02:36 Finders search
+2022/07/20 14:02:36 Horizontal Finders count: 4
+2022/07/20 14:02:36 Matched Finders count: 0
+2022/07/20 14:02:36 Remove all unused finders
+2022/07/20 14:02:36 Remove unmatched finders. Less than 3 finders found
+2022/07/20 14:02:37 Convert image to black and white
+2022/07/20 14:02:37 Time: 16
+2022/07/20 14:02:37 Finders search
+2022/07/20 14:02:37 Horizontal Finders count: 3
+2022/07/20 14:02:37 Matched Finders count: 0
+2022/07/20 14:02:37 Remove all unused finders
+2022/07/20 14:02:37 Remove unmatched finders. Less than 3 finders found
+2022/07/20 14:02:37 Convert image to black and white
+2022/07/20 14:02:37 Time: 16
+2022/07/20 14:02:37 Finders search
+2022/07/20 14:02:37 Horizontal Finders count: 4
+2022/07/20 14:02:37 Matched Finders count: 0
+2022/07/20 14:02:37 Remove all unused finders
+2022/07/20 14:02:37 Remove unmatched finders. Less than 3 finders found
+2022/07/20 14:02:37 Convert image to black and white
+2022/07/20 14:02:37 Time: 0
+2022/07/20 14:02:37 Finders search
+2022/07/20 14:02:37 Horizontal Finders count: 4
+2022/07/20 14:02:37 Matched Finders count: 0
+2022/07/20 14:02:37 Remove all unused finders
+2022/07/20 14:02:37 Remove unmatched finders. Less than 3 finders found
+2022/07/20 14:02:37 Convert image to black and white
+2022/07/20 14:02:37 Time: 15
+2022/07/20 14:02:37 Finders search
+2022/07/20 14:02:37 Horizontal Finders count: 3
+2022/07/20 14:02:37 Matched Finders count: 0
+2022/07/20 14:02:37 Remove all unused finders
+2022/07/20 14:02:37 Remove unmatched finders. Less than 3 finders found
+2022/07/20 14:02:38 Convert image to black and white
+2022/07/20 14:02:38 Time: 0
+2022/07/20 14:02:38 Finders search
+2022/07/20 14:02:38 Horizontal finders search. Less than 3 finders found
+2022/07/20 14:02:38 Convert image to black and white
+2022/07/20 14:02:38 Time: 16
+2022/07/20 14:02:38 Finders search
+2022/07/20 14:02:38 Horizontal finders search. Less than 3 finders found
+2022/07/20 14:02:38 Convert image to black and white
+2022/07/20 14:02:38 Time: 15
+2022/07/20 14:02:38 Finders search
+2022/07/20 14:02:38 Horizontal Finders count: 3
+2022/07/20 14:02:38 Matched Finders count: 0
+2022/07/20 14:02:38 Remove all unused finders
+2022/07/20 14:02:38 Remove unmatched finders. Less than 3 finders found
+2022/07/20 14:02:38 Convert image to black and white
+2022/07/20 14:02:38 Time: 0
+2022/07/20 14:02:38 Finders search
+2022/07/20 14:02:38 Horizontal finders search. Less than 3 finders found
+2022/07/20 14:02:39 Convert image to black and white
+2022/07/20 14:02:39 Time: 16
+2022/07/20 14:02:39 Finders search
+2022/07/20 14:02:39 Horizontal finders search. Less than 3 finders found
+2022/07/20 14:02:39 Convert image to black and white
+2022/07/20 14:02:39 Time: 0
+2022/07/20 14:02:39 Finders search
+2022/07/20 14:02:39 Horizontal finders search. Less than 3 finders found
+2022/07/20 14:02:39 Convert image to black and white
+2022/07/20 14:02:39 Time: 16
+2022/07/20 14:02:39 Finders search
+2022/07/20 14:02:39 Horizontal finders search. Less than 3 finders found
+2022/07/20 14:02:39 Convert image to black and white
+2022/07/20 14:02:39 Time: 15
+2022/07/20 14:02:39 Finders search
+2022/07/20 14:02:39 Horizontal Finders count: 4
+2022/07/20 14:02:39 Matched Finders count: 0
+2022/07/20 14:02:39 Remove all unused finders
+2022/07/20 14:02:39 Remove unmatched finders. Less than 3 finders found
+2022/07/20 14:02:40 Convert image to black and white
+2022/07/20 14:02:40 Time: 0
+2022/07/20 14:02:40 Finders search
+2022/07/20 14:02:40 Horizontal finders search. Less than 3 finders found
+2022/07/20 14:02:40 Convert image to black and white
+2022/07/20 14:02:40 Time: 16
+2022/07/20 14:02:40 Finders search
+2022/07/20 14:02:40 Horizontal Finders count: 5
+2022/07/20 14:02:40 Matched Finders count: 0
+2022/07/20 14:02:40 Remove all unused finders
+2022/07/20 14:02:40 Remove unmatched finders. Less than 3 finders found
+2022/07/20 14:02:40 Convert image to black and white
+2022/07/20 14:02:40 Time: 16
+2022/07/20 14:02:40 Finders search
+2022/07/20 14:02:40 Horizontal Finders count: 4
+2022/07/20 14:02:40 Matched Finders count: 0
+2022/07/20 14:02:40 Remove all unused finders
+2022/07/20 14:02:40 Remove unmatched finders. Less than 3 finders found
+2022/07/20 14:02:40 Convert image to black and white
+2022/07/20 14:02:40 Time: 16
+2022/07/20 14:02:40 Finders search
+2022/07/20 14:02:40 Horizontal finders search. Less than 3 finders found
+2022/07/20 14:02:41 Convert image to black and white
+2022/07/20 14:02:41 Time: 15
+2022/07/20 14:02:41 Finders search
+2022/07/20 14:02:41 Horizontal finders search. Less than 3 finders found
+2022/07/20 14:02:41 Convert image to black and white
+2022/07/20 14:02:41 Time: 16
+2022/07/20 14:02:41 Finders search
+2022/07/20 14:02:41 Horizontal finders search. Less than 3 finders found
+2022/07/20 14:02:41 Convert image to black and white
+2022/07/20 14:02:41 Time: 16
+2022/07/20 14:02:41 Finders search
+2022/07/20 14:02:41 Horizontal Finders count: 3
+2022/07/20 14:02:41 Matched Finders count: 0
+2022/07/20 14:02:41 Remove all unused finders
+2022/07/20 14:02:41 Remove unmatched finders. Less than 3 finders found
+2022/07/20 14:02:41 Convert image to black and white
+2022/07/20 14:02:41 Time: 0
+2022/07/20 14:02:41 Finders search
+2022/07/20 14:02:41 Horizontal Finders count: 3
+2022/07/20 14:02:41 Matched Finders count: 0
+2022/07/20 14:02:41 Remove all unused finders
+2022/07/20 14:02:41 Remove unmatched finders. Less than 3 finders found
+2022/07/20 14:02:42 Convert image to black and white
+2022/07/20 14:02:42 Time: 15
+2022/07/20 14:02:42 Finders search
+2022/07/20 14:02:42 Horizontal finders search. Less than 3 finders found
+2022/07/20 14:02:42 Convert image to black and white
+2022/07/20 14:02:42 Time: 16
+2022/07/20 14:02:42 Finders search
+2022/07/20 14:02:42 Horizontal finders search. Less than 3 finders found
+2022/07/20 14:02:42 Convert image to black and white
+2022/07/20 14:02:42 Time: 16
+2022/07/20 14:02:42 Finders search
+2022/07/20 14:02:42 Horizontal finders search. Less than 3 finders found
+2022/07/20 14:02:42 Convert image to black and white
+2022/07/20 14:02:42 Time: 16
+2022/07/20 14:02:42 Finders search
+2022/07/20 14:02:42 Horizontal finders search. Less than 3 finders found
+2022/07/20 14:02:42 Convert image to black and white
+2022/07/20 14:02:42 Time: 16
+2022/07/20 14:02:42 Finders search
+2022/07/20 14:02:42 Horizontal finders search. Less than 3 finders found
+2022/07/20 14:02:43 Convert image to black and white
+2022/07/20 14:02:43 Time: 0
+2022/07/20 14:02:43 Finders search
+2022/07/20 14:02:43 Horizontal finders search. Less than 3 finders found
+2022/07/20 14:02:43 Convert image to black and white
+2022/07/20 14:02:43 Time: 0
+2022/07/20 14:02:43 Finders search
+2022/07/20 14:02:43 Horizontal finders search. Less than 3 finders found
+2022/07/20 14:02:43 Convert image to black and white
+2022/07/20 14:02:43 Time: 16
+2022/07/20 14:02:43 Finders search
+2022/07/20 14:02:43 Horizontal finders search. Less than 3 finders found
+2022/07/20 14:02:43 Convert image to black and white
+2022/07/20 14:02:43 Time: 0
+2022/07/20 14:02:43 Finders search
+2022/07/20 14:02:43 Horizontal finders search. Less than 3 finders found
+2022/07/20 14:02:44 Convert image to black and white
+2022/07/20 14:02:44 Time: 15
+2022/07/20 14:02:44 Finders search
+2022/07/20 14:02:44 Horizontal finders search. Less than 3 finders found
+2022/07/20 14:02:44 Convert image to black and white
+2022/07/20 14:02:44 Time: 16
+2022/07/20 14:02:44 Finders search
+2022/07/20 14:02:44 Horizontal finders search. Less than 3 finders found
+2022/07/20 14:02:44 Convert image to black and white
+2022/07/20 14:02:44 Time: 0
+2022/07/20 14:02:44 Finders search
+2022/07/20 14:02:44 Horizontal Finders count: 5
+2022/07/20 14:02:44 Matched Finders count: 0
+2022/07/20 14:02:44 Remove all unused finders
+2022/07/20 14:02:44 Remove unmatched finders. Less than 3 finders found
+2022/07/20 14:02:44 Convert image to black and white
+2022/07/20 14:02:44 Time: 0
+2022/07/20 14:02:44 Finders search
+2022/07/20 14:02:44 Horizontal Finders count: 5
+2022/07/20 14:02:44 Matched Finders count: 0
+2022/07/20 14:02:44 Remove all unused finders
+2022/07/20 14:02:44 Remove unmatched finders. Less than 3 finders found
+2022/07/20 14:02:45 Convert image to black and white
+2022/07/20 14:02:45 Time: 16
+2022/07/20 14:02:45 Finders search
+2022/07/20 14:02:45 Horizontal finders search. Less than 3 finders found
+2022/07/20 14:02:45 Convert image to black and white
+2022/07/20 14:02:45 Time: 0
+2022/07/20 14:02:45 Finders search
+2022/07/20 14:02:45 Horizontal Finders count: 6
+2022/07/20 14:02:45 Matched Finders count: 0
+2022/07/20 14:02:45 Remove all unused finders
+2022/07/20 14:02:45 Remove unmatched finders. Less than 3 finders found
+2022/07/20 14:02:45 Convert image to black and white
+2022/07/20 14:02:45 Time: 0
+2022/07/20 14:02:45 Finders search
+2022/07/20 14:02:45 Horizontal finders search. Less than 3 finders found
+2022/07/20 14:02:45 Convert image to black and white
+2022/07/20 14:02:45 Time: 15
+2022/07/20 14:02:45 Finders search
+2022/07/20 14:02:45 Horizontal finders search. Less than 3 finders found
+2022/07/20 14:02:46 Convert image to black and white
+2022/07/20 14:02:46 Time: 0
+2022/07/20 14:02:46 Finders search
+2022/07/20 14:02:46 Horizontal finders search. Less than 3 finders found

@@ -1,0 +1,62 @@
+﻿@model IEnumerable<EmployeeAttendanceSystem.Models.AttendanceReport>
+
+@{
+    ViewData["Title"] = "Report";
+}
+
+<h1>Attendance Report</h1>
+
+<form asp-action="Report" method="get">
+    <div class="form-actions no-color">
+        <p>
+            Find by Name or Employee ID: <input type="text" name="SearchString" value="@ViewData["CurrentFilter"]" />
+            <input type="submit" value="Search" class="btn btn-primary" /> |
+            <a asp-action="Report">Back to Full List</a>
+        </p>
+    </div>
+</form>
+<form method="post" asp-controller="Attendance" asp-action="ExportToExcel">
+    <input type="submit" value="Export To Excel" class="btn btn-primary"/>
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.EmployeeID)
+            </th>
+            <th>
+                <a asp-action="Report" asp-route-sortOrder="@ViewData["NameSortParm"]">@Html.DisplayNameFor(model => model.FullName)</a>
+            </th>
+            <th>
+                <a asp-action="Report" asp-route-sortOrder="@ViewData["DateSortParm"]">@Html.DisplayNameFor(model => model.Date)</a>
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmployeeID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.AttendanceId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.AttendanceId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.AttendanceId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
